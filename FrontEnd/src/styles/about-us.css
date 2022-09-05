@@ -1,0 +1,96 @@
+.about-us{
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1fr;
+}
+.about-us-title{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1%;
+  font-weight: 900;
+  margin: 2%;
+}
+.about-us-descp{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.about-us-cont > h2{
+margin-bottom: 3%;
+} 
+.about-us-cont > p{
+width: 80%;
+} 
+@media screen and (max-width: 1240px) {
+ .about-us{
+   font-size: 0.6fr;
+  height: auto;
+}
+
+}
+@media screen and (max-width: 102px) {
+.about-us{
+  font-size: 0.5fr;
+  height: 100%;
+}
+.about-us-descp{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+}
+.about-us-cont > p{
+width: 100%;
+} 
+}
+@media screen and (max-width: 425px) {
+.about-us{
+  height: 100%;
+  font-size: 0.1fr;
+}
+.about-us-descp{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+}
+.about-us-cont > p{
+width: 100%;
+font-size: 10px;
+} 
+}

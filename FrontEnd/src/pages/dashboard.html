@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ULIB</title>
+  <link rel="icon" href="../assets/logo2.png">
+  <link rel="stylesheet" type="text/css" href="../styles/index.css">
+  <link rel="stylesheet" type="text/css" href="../styles/landing.css">
+  <link rel="stylesheet" type="text/css" href="../styles/about-us.css">
+  <link rel="stylesheet" type="text/css" href="../styles/store.css">
+  <link rel="stylesheet" type="text/css" href="../styles/dashboard.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body>
+  <div class='login-modal'>
+    <div class="close-btn">
+      <p class="x-btn">X</p>
+    </div>
+    <h2>Admin login</h2>
+    <form action="" class="form-login" method="post">
+      <div class="form-cont">
+        <p>Username:</p>
+        <input type="text" name="username" class="username">
+      </div>
+
+      <div class="form-cont">
+        <p>Password:</p>
+        <input type="password" name="password" class="password">
+      </div>
+      <p class="login-error"> failed: Wrong username or password</p>
+
+
+      <input type="submit" value="Login" class="login-submit">
+    </form>
+  </div>
+  <div class="container">
+    <div class="navbar">
+      <a href="../../../index.html" class="navbarlogo">
+        <div class="navlogocontainer">
+          <img src="../assets/logo2.png" alt="ulib logo" class="navlogo">
+        </div>
+        <div class="textLogo">
+          <h2 class="top-title"> ULIB</h2>
+
+        </div>
+
+      </a>
+      <div class="links">
+        <div class="anchor"><a href="store.html">Store</a> </div>
+        <hr class="vr">
+        <div class="anchor"> <a href="about-us.html">About Us</a> </div>
+        <hr class="vr">
+        <div class="anchor"><a href="contact-us.html">Contact Us</a> </div>
+      </div>
+      <div class="login">
+        <img src="../assets/login.png" alt="login-logo" class="login-logo">
+      </div>
+    </div>
+    <!-- <hr class="divider"> -->
+    <div class="add-cat-modal" id="add-cat-id">
+      <h1 class="add-cat-modal-header"> Add Category</h1>
+
+      <form action="POST" class="cat-add-modal-form">
+        <div class="cat-add-close-btn">
+          <p class="cat-add-x-btn">X</p>
+        </div>
+        <p>category name: </p>
+        <input type="text" name="username">
+        <p class="cat-login-error"> failed: failed: invalid name</p>
+        <input type="submit" value="submit">
+      </form>
+
+      <form class="add-relation">
+
+      </form>
+    </div>
+    <div class="add-book-modal" id="add-book-id">
+      <h1 class="add-book-modal-header"> Add Books</h1>
+
+      <form action="POST" class="book-add-modal-form">
+        <div class="book-add-close-btn">
+          <p class="book-add-x-btn">X</p>
+        </div>
+        <p>title: </p>
+        <input type="text" name="title">
+        <p>author: </p>
+        <input type="text" name="author">
+        <p>description: </p>
+        <input type="text" name="description">
+        <p>Price: </p>
+        <input type="text" name="Price">
+        <p>Book cover (.png only): </p>
+        <input type="file" accept="image/*,.pdf" name="file" id="img-input">
+        <p class="book-done"> Insertion Successfull</p>
+        <p class="book-login-error"> failed: invalid values</p>
+        <input type="submit" value="submit">
+      </form>
+
+    </div>
+
+    <div class="dash-container">
+      <div class="dash-link-container">
+        <h1>ULib Dashboard</h1>
+        <div class="dash-block dash-cat-container">Categories</div>
+        <div class="dash-block dash-book-container"> Ebooks</div>
+        <div class="dash-block dash-charts-container">Chart</div>
+      </div>
+      <div class="dash-content-container">
+        <div class="dash-content-inner-container">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src='../script/jquery-3.6.0.min.js'></script>
+<script src="../script/index.js"></script>
+
+<script type="text/javascript">
+
+
+
+</script>
+
+</html>

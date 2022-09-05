@@ -1,0 +1,54 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.form > input{
+  border: none;
+  padding: 3%;
+  border-bottom: 3px solid black;
+}
+.form > textarea{
+  border: none;
+  padding: 3%;
+  border: 3px solid black;
+  resize: none;
+  overflow: scroll;
+    height: 15em;
+    width: 60em;
+}
+.contact-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+.contact-title{
+  margin-bottom: 3%;
+}
+@media screen and (max-width: 811px) {
+.form > textarea{
+ height: 15em;
+    width: 40em;
+}
+}
+@media screen and (max-width: 537px) {
+.form > textarea{
+ height: 15em;
+    width: 30em;
+}
+}
+@media screen and (max-width: 402px) {
+.form > textarea{
+ height: 15em;
+    width: 25em;
+}
+}
+@media screen and (max-width: 338px) {
+.form > textarea{
+ height: 15em;
+    width: 21em;
+}
+}

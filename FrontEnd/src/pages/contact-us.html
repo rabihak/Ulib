@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ULIB</title>
+  <link rel="icon" href="../assets/logo2.png">
+  <link rel="stylesheet" type="text/css" href="../styles/index.css">
+  <link rel="stylesheet" type="text/css" href="../styles/landing.css">
+  <link rel="stylesheet" type="text/css" href="../styles/contact-us.css">
+  <link rel="stylesheet" type="text/css" href="../styles/store.css">
+
+
+</head>
+
+<body>
+  <div class='login-modal'>
+    <div class="close-btn">
+      <p class="x-btn">X</p>
+    </div>
+    <h2>Admin login</h2>
+
+    <form action="" class="form-login" method="post">
+      <div class="form-cont">
+        <p>Username:</p>
+        <input type="text" name="username" class="username" value="admin">
+      </div>
+
+      <div class="form-cont">
+        <p>Password:</p>
+        <input type="password" name="password" class="password" value="admin">
+
+
+      </div>
+      <p class="login-error"> failed: Wrong username or password</p>
+
+
+      <input type="submit" value="Login" class="login-submit">
+    </form>
+  </div>
+  <div class="container">
+    <div class="navbar">
+      <a href="../../../index.html" class="navbarlogo">
+        <div class="navlogocontainer">
+          <img src="../assets/logo2.png" alt="ulib logo" class="navlogo">
+        </div>
+        <div class="textLogo">
+          <h2 class="top-title"> ULIB</h2>
+
+        </div>
+
+      </a>
+      <div class="links">
+        <div class="anchor"><a href="store.html">Store</a> </div>
+        <hr class="vr">
+        <div class="anchor"> <a href="about-us.html">About Us</a> </div>
+        <hr class="vr">
+        <div class="anchor"><a href="contact-us.html">Contact Us</a> </div>
+      </div>
+      <div class="login">
+        <img src="../assets/login.png" alt="login-logo" class="login-logo">
+      </div>
+    </div>
+    <hr class="divider">
+
+    <div class="contact-container">
+      <h1 class="contact-title">Get In Touch</h1>
+      <form class="form" action="">
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="text" placeholder="Message"></textarea>
+
+      </form>
+    </div>
+  </div>
+
+
+</body>
+<script src='../script/jquery-3.6.0.min.js'></script>
+<script src="../script/index.js"></script>
+
+</html>

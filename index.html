@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ULIB</title>
+  <link rel="icon" href="./src/assets/logo2.png">
+  <link rel="stylesheet" type="text/css" href="./Frontend/src/styles/index.css">
+  <link rel="stylesheet" type="text/css" href="./Frontend/src/styles/landing.css">
+  <link rel="stylesheet" type="text/css" href="./FrontEnd/src/styles/store.css">
+
+</head>
+
+
+<body>
+  <div class='login-modal'>
+    <div class="close-btn">
+      <p class="x-btn">X</p>
+    </div>
+    <h2>Admin login</h2>
+    <form action="" class="form-login" method="post">
+      <div class="form-cont">
+        <p>Username:</p>
+        <input type="text" name="username" class="username" value="admin">
+      </div>
+
+      <div class="form-cont">
+        <p>Password:</p>
+        <input type="password" name="password" class="password" value="admin">
+
+
+      </div>
+      <p class="login-error"> failed: Wrong username or password</p>
+
+
+      <input type="submit" value="Login" class="login-submit">
+    </form>
+  </div>
+  <div class="container">
+    <div class="navbar">
+      <a href="./index.html" class="navbarlogo">
+        <div class="navlogocontainer">
+          <img src="./Frontend/src/assets/logo2.png" alt="ulib logo" class="navlogo">
+        </div>
+        <div class="textLogo">
+          <h2 class="top-title"> ULIB</h2>
+
+        </div>
+
+      </a>
+      <div class="links">
+        <div class="anchor"><a href="./Frontend/src/pages/store.html">Store</a> </div>
+        <hr class="vr">
+        <div class="anchor"> <a href="./Frontend/src/pages/about-us.html">About Us</a> </div>
+        <hr class="vr">
+        <div class="anchor"><a href="./Frontend/src//pages/contact-us.html">Contact Us</a> </div>
+      </div>
+      <div class="login">
+
+        <img src="./Frontend/src/assets/login.png" alt="login-logo" class="login-logo">
+
+
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="landing">
+      <div class="left-side">
+        <div class="left-side-cont">
+          <div class="left-side-title">
+            <h2 class="title">The Home <br>
+              Of Ebooks</h2>
+            </h1>
+          </div>
+          <div class="left-side-desc">
+            <h3>ULIB is the destination for all the books you love — and all the ones you'll love next.
+              Browse the Book Store to find the perfect book to read.
+            </h3>
+          </div>
+          <div class="left-side-btn">
+            <button class="shop-btn">
+              <a href="./Frontend/src/pages/store.html">
+                <h3>Shop Now</h3>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class=" right-side">
+        <div class="right-side-container">
+          <img src="./Frontend/src/assets/landing.png" alt="" class="landing-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src='./Frontend/src/script/jquery-3.6.0.min.js'></script>
+<script src="./Frontend/src/script/index.js"></script>
+
+
+
+</html>

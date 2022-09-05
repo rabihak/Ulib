@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	margin: 0;
+}
+
+@font-face {
+	font-family: MondaRegular;
+	src: url(../fonts/Monda-Regular.ttf);
+}
+
+@font-face {
+	font-family: MondaBold;
+	src: url(../fonts/Monda-Bold.ttf);
+}
+
+* {
+	font-family: MondaRegular;
+}
+
+html body {
+	height: 100vh;
+}
+
+.container {
+	height: 100%;
+}
